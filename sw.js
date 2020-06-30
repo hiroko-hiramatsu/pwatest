@@ -1,8 +1,8 @@
-var CACHE_NAME = 'pwa-sample-caches';
+var CACHE_NAME = 'pwatest-sample-caches';
 var urlsToCache = [
-    '/pwa/',
-    '/pwa/style.css',
-    '/pwa/app.js',
+    '/pwatest/',
+    '/pwatest/style.css',
+    '/pwatest/app.js',
 ];
 
 self.addEventListener('install', function(event) {
